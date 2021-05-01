@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './index';
+import React from 'react';
+import Albums from './Albums';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className='box-border bg-gray-200 p-8'>
+			<div className='w-100vw flex flex-col content-center justify-center'>
+        <h1 className='h1 text-center my-6'>My favourite albums</h1>
+        <div className="w-24 h-2 bg-black self-center mb-6 "></div>
+				<div className='p-6 w-4/5 h-full m-auto bg-blue-400 grid place-items-center'>
+					<Albums></Albums>
+				</div>
+			</div>
+		</main>
+	);
 }
 
 export default App;
