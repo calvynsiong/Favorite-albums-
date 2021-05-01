@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
-import { FaQuoteRight } from 'react-icons/fa';
+import { BsMusicNote } from 'react-icons/bs';
 import people from './data';
 
 const Albums = () => {
@@ -49,8 +49,8 @@ const Albums = () => {
 					alt='Reviews'
 					className=' self-center w-36 h-36 object-cover rounded-full'
 				/>
-				<span className='grid place-items-center absolute top-0 -left-4 bg-blue-500 rounded-full w-10 h-10'>
-					<FaQuoteRight></FaQuoteRight>
+				<span className='grid place-items-center absolute top-0 -left-2 bg-blue-500 rounded-full w-10 h-10'>
+					<BsMusicNote></BsMusicNote>
 				</span>
 			</div>
 
